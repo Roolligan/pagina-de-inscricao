@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-    background: url('pagina-de-inscricao/img/fundo-evento.jpg') no-repeat center center/cover; /* Imagem de fundo */
+    background: url('/pagina-de-inscricao/img/fundo-evento.jpg') no-repeat center center/cover; /* Imagem de fundo */
     height: 100vh; /* Ocupa a altura total da tela */
     display: flex;
     justify-content: center;
