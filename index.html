@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival de Chopp Sulista</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo do Festival de Chopp Sulista">
+            </div>
+            <h1>Festival de Chopp Sulista</h1>
+            <p>Um brinde à cultura e aos sabores do Sul do Brasil!</p>
+            <a href="#inscricao" class="btn-cta">Inscreva-se Agora</a>
+        </div>
+    </header>
+    
+    <!-- Sobre o Evento //-->
+<section id="sobre" class="sobre">
+    <div class="container">
+        <h2>Sobre o Evento</h2>
+        <p>O Festival de Chopp Sulista é uma celebração da cultura, sabores e tradições do Sul do Brasil. Venha brindar com a gente!</p>
+        <div class="detalhes-evento">
+            <div class="detalhe">
+                <h3>📅 Data</h3>
+                <p>25 de Fevereiro de 2025</p>
+            </div>
+            <div class="detalhe">
+                <h3>📍 Local</h3>
+                <p>Centro de Eventos de Gramado, RS</p>
+            </div>
+            <div class="detalhe">
+                <h3>⏰ Horário</h3>
+                <p>14h às 22h</p>
+            </div>
+        </div>
+        <p>Atrações imperdíveis: música ao vivo, chopp artesanal e comidas típicas que celebram o melhor do Sul.</p>
+    </div>
+</section>
+
+
+    <!-- Galeria de Fotos -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2>Galeria</h2>
+            <p>Confira os destaques que você encontrará no Festival de Chopp Sulista!</p>
+            <div class="galeria-grid">
+                <figure>
+                    <img src="img/chopp.jpg" alt="Caneca de chopp artesanal">
+                    <figcaption>Chopp Artesanal</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/churrasco.jpg" alt="Churrasco gaúcho">
+                    <figcaption>Churrasco Gaúcho</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/musica.jpg" alt="Show de música ao vivo">
+                    <figcaption>Música Ao Vivo</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/celebracao.jpg" alt="Pessoas celebrando com chopp">
+                    <figcaption>Celebração e Alegria</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Inscrição -->
+    <section id="inscricao" class="inscricao">
+        <div>
+            <h2>Inscreva-se</h2>
+            <p>Garanta sua presença no Festival de Chopp Sulista</p>
+            <form action="https://formspree.io/f/mgvvqwpa" method="POST" class="form-inscricao">
+                <input type="hidden" name="_redirect" value="https://seu-site.com/obrigado.html">
+    
+                
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+            
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone" required>
+            
+                    <label for="participantes">Número de Participantes</label>
+                    <input type="number" id="participantes" name="participantes" placeholder="Ex: 2" min="1" required>
+            
+                    <button type="submit" class="btn-inscricao">Enviar Inscrição</button>
+                </form>
+        </div>        
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div>
+            <p>&copy; 2025 Festival de Chopp Sulista. Todos os direitos reservados.</p>
+        
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://twitter.com" target="_blank">X</a>
+            </div>
+        </div>
+    
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
